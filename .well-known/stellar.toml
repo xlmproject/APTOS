@@ -1,1 +1,32 @@
-NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
+# ==========================================
+# APTOS TOKEN — STELLAR ASSET INFORMATION
+# Domain: aptoscoin.pages.dev
+# Standard: Stellar SEP-1
+# ==========================================
+
+VERSION = "2.7.0"
+
+NETWORK_PASSPHRASE = "Public Global Stellar Network ; September 2015"
+
+# ORGANIZATION DOCUMENTATION
+[DOCUMENTATION]
+
+ORG_NAME = "APTOS Token Project"
+ORG_URL = "https://aptoscoin.pages.dev"
+ORG_LOGO = "https://aptoscoin.pages.dev/APTOS.png"
+ORG_DESCRIPTION = "APTOS is an independently issued digital asset on the Stellar network. This project is not affiliated with Aptos Labs or the Aptos blockchain."
+
+# TOKEN INFORMATION
+[[CURRENCIES]]
+code = "APTOS"
+issuer = "GBSQFHA3PDQPKG4QKJ2GMQIZASFVLQDO3YF3K7IG2CULIHMTMKZCLSTX"
+name = "APTOS"
+desc = "APTOS is an independently issued digital asset on the Stellar blockchain."
+image = "https://aptoscoin.pages.dev/APTOS.png"
+display_decimals = 7
+conditions = "Please verify the issuer account and token details independently before interacting with this asset."
+
+# Add exactly ONE verified supply policy:
+# fixed_number = 100000000000
+# max_number = 100000000000
+# is_unlimited = true
